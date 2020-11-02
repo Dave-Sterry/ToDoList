@@ -5,7 +5,7 @@
 
 ## Description
 
-_A simple To Do List website to learn about Constructor and Prototype methods"
+_A simple To Do List website to learn about Constructor and Prototype method_
 
 The site can be viewed [here](insert gh pages link)
 
@@ -25,6 +25,18 @@ Describe ToDoList()
 
 Test: It will take inputed errands  and them to the ToDoList array
 Expect: ToDoList(errand).toEqual([errands])
+
+Test: It will add new tasks to the ToDoList array
+Expect: ToDoList(new-errand).toEqual([new-errand])
+
+Test: It will assign an ID number to errands.
+Expect: ToDoList(errand).toEqual(1);
+
+Test: it will find an errand based on the assigned ID number
+Expect: ToDoList(0).toEqual(errand)
+
+Test: It will delete an errand based on the assigned ID number
+Expect: ToDoList(0).toEqual(false)
 
 Describe: Task()
 

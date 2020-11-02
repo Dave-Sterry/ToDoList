@@ -48,3 +48,17 @@ function Task(errand) {
 Task.prototype.displayErrand = function() {
   return(" I need to " + this.errand);
 };
+
+
+//User Interface Logic ------
+let toDoList = new ToDoList();
+
+$(document).ready(function() {
+  $("form#new-tasks").submit(function(event) {
+    event.preventDefault();
+    const inputtedTask = $("input#task").val();
+    let newTask = new Task(inputtedTask);
+    toDoList.addTask(newTask);
+    console.log(toDoList.errands);
+  });
+});
