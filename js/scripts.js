@@ -14,6 +14,29 @@ ToDoList.prototype.assignId = function () {
   return this.currentId;
 };
 
+ToDoList.prototype.findErrand = function(id) {
+  for (let i=0; i<this.errands.length; i++) {
+    if (this.errands[i]) {
+      if (this.errands[i].id == id) {
+        return this.errands[i];
+      }
+   }
+  };
+  return false;
+}
+
+ToDoList.prototype.deleteErrand = function(id) {
+  for (let i=0; i <this.errands.length; i++) {
+  if(this.errands[i]) {
+      if (this.errands[i].id == id) {
+        delete this.errands[i];
+        return true;
+      }
+    }
+  };
+  return false;
+}
+
 
 
 //Business Logic for Tasks----

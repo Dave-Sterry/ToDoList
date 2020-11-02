@@ -1,11 +1,11 @@
 # TITLE 
 <img src="https://github.com/Dave-Sterry.png" width="200px" height="auto">
 
-### A website by David Sterry updated on -----
+### A website by David Sterry and Agata Kolodziej updated on 01/02/20
 
 ## Description
 
-_Insert Descrption_
+_A simple To Do List website to learn about Constructor and Prototype methods"
 
 The site can be viewed [here](insert gh pages link)
 
@@ -53,4 +53,4 @@ _Please contact me at sterry.david@gmail.com in regards to this website_
 
 This project is licensed under **MIT 2.0**
 
-Copyright (c) 2020 **David Sterry**
+Copyright (c) 2020 **David Sterry Agata Kolodziej**
