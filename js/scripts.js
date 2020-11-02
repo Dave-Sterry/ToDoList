@@ -4,7 +4,15 @@ function ToDoList() {
   this.currentId = 0;
 }
 
+ToDoList.prototype.addTask = function (errand) {
+  errand.id = this.assignId();
+  this.errands.push(errand);
+};
 
+ToDoList.prototype.assignId = function () {
+  this.currentId += 1;
+  return this.currentId;
+};
 
 
 
